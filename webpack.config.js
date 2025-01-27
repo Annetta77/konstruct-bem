@@ -31,11 +31,11 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'), // Заменили contentBase на static
+      directory: path.join(__dirname, 'dist'), 
     },
     compress: true,
-    port: 9000, // Установите порт, на котором будет работать сервер
-    open: true, // Откроет браузер автоматически
+    port: 9000, 
+    open: true,
   },
   devtool: 'inline-source-map',
 };
