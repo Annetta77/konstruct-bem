@@ -1,0 +1,49 @@
+$font-family: 'OpenSans', sans-serif;
+$second-family: 'BebasNeueBold', sans-serif;
+
+$font-weight: 400;
+$font-size: 13px;
+$line-height: 177%;
+$letter-spacing: 0.01em;
+$color: #48555b;
+
+$h1-font-size: 60px;
+$h1-text-align: center;
+$h1-color: #fff;
+
+$h2-font-weight: 700;
+$h2-font-size: 18px;
+$h2-letter-spacing: 0.13em;
+
+$button-font-weight: 700;
+$button-letter-spacing: 0.04em;
+$button-text-align: center;
+$button-color: #fff;
+
+@mixin text-page {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+    color: $color;
+}
+
+@mixin h1 {
+    font-family: $second-family;
+    font-size: $h1-font-size;
+    text-align: $h1-text-align;
+    color: $h1-color;
+}
+
+@mixin h2 {
+    font-weight: $h2-font-weight;
+    font-size: $h2-font-size;
+    letter-spacing: $h2-letter-spacing;
+}
+
+@mixin button {
+    font-weight: $button-font-weight;
+    letter-spacing: $button-letter-spacing;
+    text-align: $button-text-align;
+    color: $button-color;
+}
